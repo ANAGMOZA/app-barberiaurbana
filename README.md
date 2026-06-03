@@ -33,3 +33,5 @@ barberia-urbana/
     └── assets/         # Recursos estáticos (Logotipos e imágenes)
         ├── logo.jpg
         └── barberia.jpg
+
+file:///C:/Users/UltraBook/Desktop/App-BarberiaUrbana/index.html
