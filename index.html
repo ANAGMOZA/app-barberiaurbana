@@ -32,7 +32,7 @@
         <section id="hero" class="hero-section">
             <div class="hero-content">
                 <h1>Estilo Urbano con Identidad Propia</h1>
-                <p>Mucho más que un corte de cabello. Una experiencia de primer nivel.</p>
+                <p>Mucho más que un corte — <strong>una experiencia que se nota.</strong></p>
                 <a href="#contacto" class="btn-cta">Reserva tu Turno</a>
             </div>
         </section>
@@ -40,7 +40,7 @@
         <!-- 2. Sección Sobre Nosotros -->
         <section id="nosotros" class="section-padding">
             <h2>Sobre Nosotros</h2>
-            <p>Somos una barbería moderna en el corazón de la ciudad, enfocada en las tendencias urbanas y el cuidado clásico masculino. Nuestra misión es potenciar tu estilo con precisión y profesionalismo.</p>
+            <p class="section-description">Somos una barbería moderna en el corazón de la ciudad, enfocada en las tendencias urbanas y el cuidado clásico masculino. Nuestra misión es potenciar tu estilo con precisión y profesionalismo.</p>
         </section>
 
         <!-- 3. Sección Servicios (Mínimo 3 con imagen y alt descriptivo) -->
@@ -66,40 +66,87 @@
         </section>
 
         <!-- 4. Sección Tabla o Listado (Precios y Horarios) -->
-                <section id="precios" class="section-padding">
+        <section id="precios" class="section-padding">
             <h2>Precios y Horarios</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Servicio</th>
-                            <th>Horarios Disponibles</th> <th>Precio</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Corte de Autor</td>
-                            <td>Lunes a Sábado: 10:00 - 20:00</td>
-                            <td>$12.000</td>
-                        </tr>
-                        <tr>
-                            <td>Perfilado de Barba</td>
-                            <td>Lunes a Sábado: 11:00 - 19:30</td>
-                            <td>$8.000</td>
-                        </tr>
-                        <tr>
-                            <td>Combo Urbano</td>
-                            <td>Lunes a Viernes: 12:00 - 20:00</td>
-                            <td>$18.000</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="tables-wrapper">
+                <div class="table-container">
+                    <h3 class="table-subtitle">Tarifas de Servicios</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Servicio</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Corte de Autor</td>
+                                <td>$12.000</td>
+                            </tr>
+                            <tr>
+                                <td>Perfilado de Barba</td>
+                                <td>$8.000</td>
+                            </tr>
+                            <tr>
+                                <td>Combo Urbano</td>
+                                <td>$18.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-container">
+                    <h3 class="table-subtitle">Horarios de Atención</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Día</th>
+                                <th>Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes a Viernes</td>
+                                <td>10:00 – 20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>09:00 – 18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Domingo</td>
+                                <td>Cerrado</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
 
-        <!-- 5. Sección Testimonios o Equipo -->
+        <!-- 5. Sección Equipo y Testimonios -->
         <section id="testimonios" class="section-padding">
-            <h2>El Equipo</h2>
+            <h2>Nuestro Equipo</h2>
+            <div class="services-container">
+                <article class="card">
+                    <img src="src/assets/barbero1.jpeg" alt="Barbero Matías López especialista en cortes clásicos y degradados urbanos">
+                    <h3>Matías López</h3>
+                    <p><strong>Especialidad:</strong> Cortes clásicos y degradados</p>
+                    <p>Más de 8 años de experiencia en estilos urbanos y acabados de precisión.</p>
+                </article>
+                <article class="card">
+                    <img src="src/assets/barbero2.webp" alt="Barbero Diego Ramírez experto en perfilado de barba con navaja tradicional">
+                    <h3>Diego Ramírez</h3>
+                    <p><strong>Especialidad:</strong> Perfilado de barba y diseño facial</p>
+                    <p>Domina las técnicas tradicionales de navaja y diseño de barba a medida.</p>
+                </article>
+                <article class="card">
+                    <img src="src/assets/barbero3.jpg" alt="Barbero Sebastián Torres especialista en combo urbano y tratamientos capilares">
+                    <h3>Sebastián Torres</h3>
+                    <p><strong>Especialidad:</strong> Combo urbano y tratamientos capilares</p>
+                    <p>Formado en Santiago y Buenos Aires, trae las últimas tendencias en cuidado masculino.</p>
+                </article>
+            </div>
+
+            <h2 style="margin-top: 3rem;">Lo que dicen nuestros clientes</h2>
             <div class="team-container">
                 <article class="testimonial-card">
                     <p>"El mejor degradado de la zona. La atención de los barberos es excelente y el ambiente muy urbano."</p>

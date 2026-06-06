@@ -27,22 +27,9 @@ barberia-urbana/
 ├── README.md           # Documentación general del proyecto (este archivo)
 └── src/
     ├── css/
-    │   └── styles.css  # Estilos generales, layouts y media queries
+    │   └── style.css   # Estilos generales, layouts y media queries
     ├── js/
     │   └── form.js    # Lógica de validación del formulario de contacto
     └── assets/         # Recursos estáticos (Logotipos e imágenes)
         ├── logo.jpg
-        └── barberia.jpg
-
-## 🌐 Ver proyecto en vivo 
-
-[https://anagmoza.github.io/App-BarberiaUrbana/](https://anagmoza.github.io/App-BarberiaUrbana/)
-
----
-
-## ▶️ Cómo visualizarlo localmente
-
-1. Clona o descarga el repositorio
-2. Abre la carpeta del proyecto en VS Code
-3. Haz clic derecho en `index.html` → **Open with Live Server**
-4. O simplemente abre `index.html` directamente en tu browser
+        └── barberia.png
